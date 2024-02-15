@@ -34,15 +34,15 @@ appVersion: v23.3.4
 # pre-release. Our "-0" allows pre-releases to be matched.
 kubeVersion: "^1.21.0-0"
 
-dependencies:
-  - name: console
-    condition: console.enabled
-    version: ">=0.5 <1.0"
-    repository: https://charts.redpanda.com
-  - name: connectors
-    condition: connectors.enabled
-    version: ">=0.1.2 <1.0"
-    repository: https://charts.redpanda.com
+# dependencies:
+#   - name: console
+#     condition: console.enabled
+#     version: ">=0.5 <1.0"
+#     repository: https://charts.redpanda.com
+#   - name: connectors
+#     condition: connectors.enabled
+#     version: ">=0.1.2 <1.0"
+#     repository: https://charts.redpanda.com
 
 icon: https://images.ctfassets.net/paqvtpyf8rwu/3cYHw5UzhXCbKuR24GDFGO/73fb682e6157d11c10d5b2b5da1d5af0/skate-stand-panda.svg
 sources:
