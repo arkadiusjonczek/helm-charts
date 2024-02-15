@@ -38,11 +38,11 @@ dependencies:
   - name: console
     condition: console.enabled
     version: ">=0.5 <1.0"
-    repository: https://charts.redpanda.com
+    repository: https://github.com/redpanda-data/helm-charts/tree/main/charts
   - name: connectors
     condition: connectors.enabled
     version: ">=0.1.2 <1.0"
-    repository: https://charts.redpanda.com
+    repository: https://github.com/redpanda-data/helm-charts/tree/main/charts
 
 icon: https://images.ctfassets.net/paqvtpyf8rwu/3cYHw5UzhXCbKuR24GDFGO/73fb682e6157d11c10d5b2b5da1d5af0/skate-stand-panda.svg
 sources:
